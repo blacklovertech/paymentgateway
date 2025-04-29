@@ -1,17 +1,27 @@
-# paymentgateway
-PHP Based PG For Any Purpose
+# Indian Payment Gateways (PHP Integration)
+
+This project demonstrates PHP code for integrating 7 popular Indian payment gateways:
+
+- ✅ **PhonePe (via APIs)**
+- ✅ **Cashfree**
+- ✅ **CCAvenue**
+- ✅ **Razorpay**
+- ✅ **PayU**
+- ✅ **Paytm**
+- ✅ **BillDesk**
+
 ---
 
-# PHP Payment Gateway Integration (Razorpay, PayU, BillDesk, Paytm)
+## 💡 Overview
 
-This repo contains simple and clean PHP examples for integrating multiple Indian payment gateways. Each folder has:
-- `config.php`: Store your API credentials and setup
-- `main.php`: Basic checkout UI with dummy data
-- `response.php`: Handle gateway success/failure responses
+This repository includes code for the integration of each payment gateway with simple configuration and implementation steps. The provided code samples include:
 
-## 💳 Gateways Covered
+- `config.php`: Stores your API keys, secret keys, and URLs.
+- `main.php`: Handles the payment request initiation.
+- `response.php`: A sample callback handler for payment responses.
 
-- ✅ Razorpay
-- ✅ PayU
-- ✅ BillDesk
-- ✅ Paytm
+---
+
+## 🔑 Gateway Configurations
+
+Use Config From Official API of Each Gateways

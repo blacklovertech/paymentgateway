@@ -1,0 +1,4 @@
+<?php
+define("RAZORPAY_KEY_ID", "YOUR_KEY_ID");
+define("RAZORPAY_KEY_SECRET", "YOUR_KEY_SECRET");
+?>
